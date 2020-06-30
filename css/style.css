@@ -215,6 +215,18 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .wave {
+    display: none;
+  }
+  .login-container {
+    margin-left: 100px;
+    margin-top: 500px;
+    position: absolute;
+    z-index: 3;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   form {
     width: 290px;
@@ -256,4 +268,22 @@ a:hover {
     position: relative;
     z-index: 2;
   }
+}
+
+@media screen and (max-width: 375px) {
+  
+  .login-container {
+    margin-left: -30px;
+    position: absolute;
+    
+}
+
+@media screen and (max-width: 414px) {
+  
+  .login-container {
+    margin-left: -70px;
+    position: absolute;
+    z-index: 3;
+
+    
 }
